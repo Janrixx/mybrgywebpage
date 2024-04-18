@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Balais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button class="menu" onclick="toggleNav()"><b>&#8801 MENU</b></button>
+    </header>
+<nav id="sidebar">
+    <button class="closebtn" onclick="toggleNav()">&times;</button>
+    <a href="index.html" class="home"onclick="toggleNav()">Home</a>
+    <a href="about.html" class="abt" onclick="toggleNav()">About</a>
+    <a href="about.html" class="cnt"onclick="toggleNav()">Contact</a>
+    <a href="about.html" class="prj"onclick="toggleNav()">Projects</a>
+    <a href="about.html" class="cmt"onclick="toggleNav()">Community</a>
+    <a href="gallery.html" class="gly"onclick="toggleNav()">Gallery</a>
+    
+</nav>
+
+<div class="content">
+    <h1>Barangay Balais, Lagangilang, Abra</h1>
+    <p><b>If you have any concern please contact us, just click here 
+        <a href="register.html">Register Here</a></b></p>
+</div>
+
+
+<script>
+    function toggleNav(){
+        document.getElementById("sidebar").classList.toggle("open");
+    }
+</script>
+</body>
+</html>

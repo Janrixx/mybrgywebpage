@@ -1,0 +1,92 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background-image:url(bg.jpg);
+    background-size:cover;
+    
+    
+}
+h1{
+    text-shadow:3px 2px 1px grey;
+}
+header{
+    background-color:white;
+    opacity:0.7;
+    padding:10px 20px;
+    text-align: start;
+
+}
+nav{
+    height:100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top:60px;
+}
+
+nav a{
+    padding:10px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    display: block;
+    transition:0.3s;
+
+}
+nav a{
+    background-color:khaki;
+    color:black;
+
+}
+nav .closebtn{
+    position:absolute;
+    top:10px;
+    left:10px;
+    right:10px;
+    font-size:30px;
+    color:black;
+}
+nav.open{
+    width:250px;
+}
+.menu{
+    font-size:20px;
+    color:white;
+    padding:10px 20px;
+    background-color:yellow;
+    
+}
+
+.content{
+    margin-left: 150px;
+    padding:20px;
+    color:white;
+}
+h1:hover{
+    color:blue;
+    
+}
+.home:hover{
+    background-color:blue;
+}
+.cnt:hover{
+    background-color:yellow;
+}
+.cmt:hover{
+    background-color:purple;
+}
+.gly:hover{
+    background-color:tomato;
+}
+.prj:hover{
+    background-color:green;
+}
+.abt:hover{
+    background-color:red;
+}
